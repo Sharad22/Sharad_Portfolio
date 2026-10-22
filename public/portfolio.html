@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharadindu Guin | Portfolio</title>
+    <style>
+        :root {
+            --bg: #050505;
+            --accent: #F27D26;
+            --text: #ffffff;
+            --muted: #888888;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            padding: 100px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+        }
+        .accent { color: var(--accent); }
+        .tagline {
+            color: var(--muted);
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .section-title {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: var(--accent);
+            margin-bottom: 40px;
+            display: block;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+        .project-card {
+            border: 1px solid rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            transition: border-color 0.3s;
+        }
+        .project-card:hover {
+            border-color: var(--accent);
+        }
+        .project-title {
+            font-size: 2rem;
+            margin: 0 0 10px 0;
+        }
+        .project-desc {
+            color: var(--muted);
+        }
+        footer {
+            padding: 100px 0;
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            margin-top: 100px;
+        }
+        .social-links a {
+            color: var(--text);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        .social-links a:hover {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sharadindu <span class="accent">Guin.</span></h1>
+            <p class="tagline">Product Designer dedicated to crafting seamless interfaces.</p>
+        </header>
+
+        <section>
+            <span class="section-title">Selected Work</span>
+            <div class="projects">
+                <div class="project-card">
+                    <h3 class="project-title">Lumina AI</h3>
+                    <p class="project-desc">Next-gen AI workspace for creative teams.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Void Pay</h3>
+                    <p class="project-desc">Minimal crypto wallet.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">Nexus OS</h3>
+                    <p class="project-desc">A desktop OS for focus.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="#">Behance</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Email</a>
+            </div>
+            <p style="margin-top: 40px; color: var(--muted); font-size: 0.7rem;">© 2025 Sharadindu Guin. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
