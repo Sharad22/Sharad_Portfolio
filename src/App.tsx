@@ -158,7 +158,8 @@ const PROJECTS = [
       "https://drive.google.com/file/d/1CKmWIPcbHE3s9oVx2O7_J3v5RuxS1bIi/view?usp=drive_link",
       "https://drive.google.com/file/d/1ud7Z038tA9NfTH-VkAmUblWaCzhMc4P1/view?usp=drive_link",
       "https://drive.google.com/file/d/1uT0mHvy1NhlXsAwnSVicAkKXMPQ0wMdK/view?usp=drive_link",
-      "https://drive.google.com/file/d/1VHIvWz6-Ovq-lx10Cl77LZdCJI-VTkbw/view?usp=drive_link"
+      "https://drive.google.com/file/d/1VHIvWz6-Ovq-lx10Cl77LZdCJI-VTkbw/view?usp=drive_link",
+      "https://drive.google.com/file/d/1ZGtNAC_oVbLNq6LnhFY6U5vj1xT1oGbP/view?usp=drive_link"
     ]
   },
   {
