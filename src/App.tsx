@@ -142,7 +142,7 @@ const getDriveDirectLink = (url: string) => {
 };
 
 // --- Resume / CV Google Drive URL ---
-const RESUME_DRIVE_URL = "https://drive.google.com/file/d/1iHQXHyw8572-yaKS3iI2zCRxN085wwpi/view?usp=sharing";
+const RESUME_DRIVE_URL = "https://drive.google.com/file/d/1XoPevazrJeuR_xy3gQBH8HZWX9BtsaTg/view?usp=sharing";
 
 // --- Projects / Case Studies Data ---
 const PROJECTS = [
